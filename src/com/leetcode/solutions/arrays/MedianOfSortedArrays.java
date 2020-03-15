@@ -1,4 +1,4 @@
-package com.leetcode.solutions;
+package com.leetcode.solutions.arrays;
 
 public class MedianOfSortedArrays {
     private static double findMedianSortedArrays(int[] nums1, int[] nums2) {
