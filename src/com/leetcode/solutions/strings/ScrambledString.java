@@ -12,8 +12,10 @@ public class ScrambledString {
 
         char[] arr1 = s1.toCharArray();
         char[] arr2 = s2.toCharArray();
+
         Arrays.sort(arr1);
         Arrays.sort(arr2);
+
         if(!new String(arr1).equals(new String(arr2))){
             return false;
         }
